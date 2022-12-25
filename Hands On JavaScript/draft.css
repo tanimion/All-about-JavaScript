@@ -1,0 +1,27 @@
+@media only screen and (max-width: 768px) {
+    body.invert-header .main-navigation a {
+        color: #ffffff;
+    }
+    .header-wrapper .header-container .header-container-navigation .main-navigation ul .investor a {
+        border: 1px solid #ffffff;
+    }
+}
+
+.header-wrapper .header-container-navigation .main-navigation ul li:nth-child(6) {
+    position: relative;
+    margin: 8px 0 0 0;
+}
+
+.header-wrapper .header-container-navigation .main-navigation ul li:nth-child(7) {
+    margin: 8px 0 0 10px;
+}
+
+.header-wrapper .header-container-navigation .main-navigation ul li:nth-child(6)::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background-color: #000000;
+    top: 2px;
+    right: -6px;
+}
