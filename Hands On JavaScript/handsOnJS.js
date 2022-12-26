@@ -143,4 +143,4 @@ for (let chars of country) {
     console.log(chars);
 }
 
-// Helooooooooooooooo\\\\\\\\\\\\
+// Helooooooooo
